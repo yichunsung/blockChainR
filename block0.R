@@ -8,6 +8,14 @@ library(digest)
 # create a Hash for testing
 digest("Y.C.Sung", "sha256")
 
+# example
+
+block_example <- list(
+  index=1
+  
+)
+
+
 # the first block building
 blockChain <- function(){
   bc = list(
@@ -16,3 +24,4 @@ blockChain <- function(){
     nodes = list()
   )
 }
+
